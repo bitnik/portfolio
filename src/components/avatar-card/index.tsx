@@ -48,7 +48,8 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             >
               {
                 <LazyImage
-                  src={profile.avatar ? profile.avatar : FALLBACK_IMAGE}
+                  // src={profile.avatar ? profile.avatar : FALLBACK_IMAGE}
+                  src={'https://www.bitnik.xyz/KenanErdogan.jpg'}
                   alt={profile.name}
                   placeholder={skeleton({
                     widthCls: 'w-full',
@@ -89,7 +90,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               download
               rel="noreferrer"
             >
-              Download Resume
+              Resume
             </a>
           ))}
       </div>
