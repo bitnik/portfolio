@@ -34,6 +34,7 @@ const CONFIG = {
           'bitnik/binder-launches',
           'gesiscss/binder_gallery',
           'gesiscss/wikiwho_api_public',
+          'wikiwho/WikiWho',
           'wikiwho/WhoColor',
         ], 
       },
